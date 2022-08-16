@@ -1,0 +1,421 @@
+/****************************************
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+Template Name      :  Dev Bonney Pharmacy
+Version            :  1.0
+Author             :  Solomon Bonney(Quophi Bonney)
+Website            :  quophibonney.github.io/pharmacy
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+******************************************/
+
+/****** General Styling *****/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+.create-space {
+    margin-top: 140px;
+}
+
+/*** Navbar Styling *****/
+#navbarBackground {
+    background: rgba(118, 98, 243, 0.836);
+    backdrop-filter: blur(5px);
+    color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid lavender;
+
+}
+
+ul.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 1.1em;
+    transition: all .5s ease-in-out;
+}
+
+ul.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+ul.navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+    font-weight: 800;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    border-radius: 5px;
+    ;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.navbar-toggler {
+    border: 3px solid rgba(118, 98, 243, 0.836);
+
+}
+
+.hire-me {
+    background: rgba(118, 98, 243, 0.836);
+    color: #fff;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+
+.hire-me:hover {
+    color: #fff;
+}
+
+.hire-me:active {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+/*** Hero Banner Styling ***/
+.hero {
+    margin-top: 70px;
+}
+
+.mobile-pic {
+    height: 100%;
+}
+
+.greeting {
+    margin-top: 100px;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.myname {
+    font-size: 3em;
+    font-weight: 800;
+    color: rgba(118, 98, 243, 0.836);
+}
+
+.career {
+    font-weight: 800;
+    font-size: 1.6em;
+}
+
+.profession {
+    transition: .9s ease-out;
+}
+
+.hero a .fa-youtube,
+.fa-github,
+.fa-whatsapp,
+.fa-instagram {
+    color: rgba(118, 98, 243, 0.836);
+    background: lavender;
+    font-size: 1.3em;
+    padding: 5px 5px;
+    border-radius: 50px;
+    border: 10px solid lavender;
+}
+
+/*** Services Styling ****/
+.service-heading {
+    font-weight: 800;
+    color: rgba(118, 98, 243, 0.836);
+    font-size: 1.4em;
+}
+
+.service-hr {
+    width: 80px;
+    background: rgba(118, 98, 243, 0.836);
+    border: 2px solid rgba(118, 98, 243, 0.836);
+    margin-top: -5px;
+}
+
+#service-container {
+    width: 32%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lavender;
+    margin-left: 10px;
+}
+
+.services .fa-database,
+.fa-laptop,
+.fa-envelope,
+.fa-map-marker,
+.fa-phone,
+.service-code {
+    background: rgba(118, 98, 243, 0.836);
+    color: #f0f0f0;
+    font-size: 2em;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lavender;
+}
+
+.service-title {
+    font-weight: 750;
+    line-height: 1;
+}
+
+.service-desc {
+    line-height: 1.5;
+}
+
+/***** Coding Skills Styling ****/
+.skill-name {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.progress {
+    border: 2px solid rgba(118, 98, 243, 0.836);
+    color: rgba(118, 98, 243, 0.836);
+    height: 15px;
+    border-radius: 35px;
+    margin-top: -10px;
+}
+
+.jsBar {
+    background: rgba(118, 98, 243, 0.836);
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+/**** Recent Projects *****/
+.project-links {
+    color: #000;
+}
+
+.project-links:hover {
+    color: #000;
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+/****** About Me Section ****/
+.about-me-text {
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.education-background {
+    box-shadow: 0 0 5px grey;
+}
+
+.year-graduation {
+    background: rgba(118, 98, 243, 0.836);
+    position: absolute;
+    color: #fff;
+    box-shadow: 0 0 15px grey;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.name-of-cert {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.name-of-school {
+    color: grey;
+    font-weight: 700;
+}
+/**** Recommendation Section Styling ****/
+#recommendation-container {
+    width: 32%;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.test-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.words {
+    font-weight: 600;
+}
+
+.gurantor-name {
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.position {
+    font-weight: 600;
+}
+
+/***** Contact Section Styling *****/
+#form-container {
+    width: 47%;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.fa-times {
+    color: #f0f0f0;
+    background:rgb(226, 24, 24);
+    font-size: 1.2em;
+    padding: 3px 3px;
+    margin-top: -10px;
+    float: right;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+.fa-times:active {
+    transform: scale(1.05);
+}
+.write {
+    font-weight: 800;
+    margin-top: 10px;
+    color: rgba(118, 98, 243, 0.836);
+}
+
+input[type="email"], input[type="text"]{
+    height: 45px;
+    background: lavender;
+}
+textarea {
+    height: 200px;
+    background: lavender;
+}
+/***** School Mgt Styling ****/
+.school-mgt-bg {
+    width: auto;
+    height: auto;
+}
+
+.fa-arrow-down {
+    background: rgba(118, 98, 243, 0.836);
+    color: #f0f0f0;
+    backdrop-filter: blur(5px);
+    font-size: 2em;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fa-arrow-down:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+.project-heading {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #f0f0f0;
+}
+
+.project-info {
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/***** Hotel Mgt Styling *****/
+.hotel-mgt-bg {
+    width: auto;
+    height: auto;
+}
+
+/****** Ecommerce Styling ****/
+.ecommerce-bg {
+    width: auto;
+    height: auto;
+}
+
+/******* Footer Styling ******/
+#footerBackground {
+    background: rgb(204, 204, 223);
+    color: rgb(82, 81, 81);
+}
+
+ul.menu {
+    list-style-type: none;
+}
+
+ul.menu h5 {
+    font-weight: 800;
+}
+
+.footer-hr {
+    border-bottom: 3px solid #f0f0f0;
+    width: 50px;
+    margin-top: -2px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+
+/***** Responsive Design ****/
+@media (max-width: 768px) {
+
+    #service-container,
+    #form-container {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .mobile-pic {
+        height: 350px;
+    }
+    .school-mgt-bg, .hotel-mgt-bg, .ecommerce-bg {
+        height: 350px;
+    }
+    #recommendation-container {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    #skills-containter {
+        width: 90%;
+    }
+
+    .logo-img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+    #service-container {
+        width: 31%;
+        margin-top: 20px;
+    }
+
+    .service-heading {
+        margin-top: 30px;
+    }
+
+    #recommendation-container {
+        width: 31%;
+    }
+
+    .logo-img {
+        width: 70px;
+        height: 70px;
+    }
+}
